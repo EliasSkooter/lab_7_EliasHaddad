@@ -102,7 +102,7 @@ let userProto = Object.getPrototypeOf(user);
 console.log(userProto);
 
 let ul = document.querySelector("ul");
-let input = document.querySelector("#item");
+let input = document.querySelector("input");
 let button = document.querySelector("button");
 
 button.addEventListener("click", function(event) {
